@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{06FDB13A-E163-49EE-AC60-4EF4085DADC5}"
 	ProjectSection(SolutionItems) = preProject
@@ -55,6 +55,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFS2013", "TFS2013\TFS2013.csproj", "{B7B102A3-0B65-49D0-BEC2-69586733F37A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crm", "Crm\Crm.csproj", "{18C638DB-47F2-4188-A654-4DADCDF17B4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssemblyReferences", "AssemblyReferences", "{C078A8F6-3FF3-468B-BBE2-BEAC123B1C51}"
+	ProjectSection(SolutionItems) = preProject
+		Common\AssemblyReferences\Microsoft.Build.dll = Common\AssemblyReferences\Microsoft.Build.dll
+		Common\AssemblyReferences\Microsoft.Build.Engine.dll = Common\AssemblyReferences\Microsoft.Build.Engine.dll
+		Common\AssemblyReferences\Microsoft.Build.Framework.dll = Common\AssemblyReferences\Microsoft.Build.Framework.dll
+		Common\AssemblyReferences\Microsoft.Build.Utilities.v12.0.dll = Common\AssemblyReferences\Microsoft.Build.Utilities.v12.0.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -326,6 +334,7 @@ Global
 		{2749A001-87EF-4757-B5B4-AA3232BB23CD} = {7DF43C7D-A243-4289-9C81-00A70119CAB1}
 		{B7B102A3-0B65-49D0-BEC2-69586733F37A} = {7DF43C7D-A243-4289-9C81-00A70119CAB1}
 		{18C638DB-47F2-4188-A654-4DADCDF17B4D} = {7DF43C7D-A243-4289-9C81-00A70119CAB1}
+		{C078A8F6-3FF3-468B-BBE2-BEAC123B1C51} = {06FDB13A-E163-49EE-AC60-4EF4085DADC5}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = MainSolution.vsmdi
